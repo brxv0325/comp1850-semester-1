@@ -10,5 +10,5 @@ git push
 - sentence3
 
 git add-A
-git commit -m "newMessage"
+git commit -m "end of session 1"
 git push
