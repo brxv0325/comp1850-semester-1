@@ -2,7 +2,6 @@
 
 course = "computer science"
 list = []
-
 for ch in course:
 	list.append(ch)
 
