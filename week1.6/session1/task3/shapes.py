@@ -10,7 +10,7 @@ class Shape:
     """
     Superclass for different types of shape.
     """
-
+    
     def __init__(self, position, colour):
         """
         Creates a shape with the specified position & colour.
@@ -24,7 +24,7 @@ class Shape:
         """
         if not isinstance(position, Point):
             raise TypeError("position must be a Point")
-
+    
         self.position = position
 
     def set_colour(self, colour):
